@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Sorting Visualizer</title>
+
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        .box{
+             padding:20px;
+             display:flex;
+
+        }
+        .butt{
+            border-radius: 15px;
+            padding: 9px;
+            background-color: #483028;
+            color: white;
+            font-size: large;
+            font-family: -webkit-body;
+            cursor:pointer;
+        }
+        .butt:hover{
+    background-color:rgb(110, 100, 80);
+} 
+        p{
+            margin-bottom:13px;
+        }
+        
+    </style>
+
+
+</head>
+<body>
+
+    <header>
+        
+        <div class="box">
+            <div class="array-inputs">
+                <p class="mn">Size of the array:
+                <input  id="a_size" type="range" min=20 max=150 step=1 value=80>
+                </p>
+                <p class="mn">Speed of the algorithm:
+                <input class="scbar" id="a_speed" type="range" min=1 max=5 step=1 value=4></p>
+                <button id="a_generate">Generate New Array!</button>
+            </div>
+            <div class="header_right">
+                <p class="nav-heading">Sorting visualizer</p>
+
+                <div class="algos">
+                    <button class="butt">Bubble</button>
+                    <button class="butt">Selection</button>
+                    <button class="butt">Insertion</button>
+                    <button class="butt">Merge</button>
+                    <button class="butt">Quick</button>
+                    <button class="butt"style="margin-right: 0px;">Heap</button>
+                </div>
+            </div>
+        </div>
+       
+            
+
+            
+    </header>
+
+    <section class="xyz">
+
+        <div id="Info_Cont1">
+            <p>This is First Container</p>
+        </div>
+
+        <div id="array_container">
+            
+        </div>
+
+        <div id="Info_Cont2">
+            <p>This is Second Container</p>
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <!-- <script src="./scripts/main.js"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
+    <!-- <script src="./scripts/visualizations.js"></script>  <!--This should be loaded after main.js-->
+
+    <!-- <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script> --> 
+    <script src="./script/script1.js"></script>
+    <script src="./script/bubble.js"></script>
+    <script src="./script/merge.js"></script>
+    <script src="./script/insertion.js"></script>
+    <script src="./script/selection.js"></script>
+    <script src="./script/quick.js"></script>
+    <script src="./script/heap.js"></script>
+    <script src="./script/visualization.js"></script>
+</body>
+</body>
+
+<!--
+    *****************
+    DONE BY:-   TUMMALA KETHAN
+    E-MAIL:-    tummala.kethan@gmail.com
+    *****************
+-->
+
+</html>
